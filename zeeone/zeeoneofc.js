@@ -110,7 +110,7 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
 const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
-	return`❏───「 *𝙰𝚔𝚎𝚖𝚒* 」───❏
+	return`❏───「 *𝙰𝚔𝚎𝚖𝚒𝙱𝚘𝚝❤︎* 」───❏
      
 ┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
@@ -684,6 +684,88 @@ ${petik}│◦ ${prefix}upswteks
 │◦ ${prefix}upswimage
 │◦ ${prefix}upswvideo${petik}
 │
+├❑「 *NSFW & SFW* 」
+│
+${petik}│◦ ${prefix}ahegao
+│◦ ${prefix}ass
+│◦ ${prefix}bdsm
+│◦ ${prefix}blowjob
+│◦ ${prefix}blowjob2
+│◦ ${prefix}cuckold
+│◦ ${prefix}cum
+│◦ ${prefix}ero
+│◦ ${prefix}femdom
+│◦ ${prefix}foot
+│◦ ${prefix}gangbang
+│◦ ${prefix}glasses
+│◦ ${prefix}jahy
+│◦ ${prefix}manga
+│◦ ${prefix}masturbation
+│◦ ${prefix}neko
+│◦ ${prefix}orgy
+│◦ ${prefix}panties
+│◦ ${prefix}pussy
+│◦ ${prefix}tentacles
+│◦ ${prefix}thighs
+│◦ ${prefix}yuri
+│◦ ${prefix}feet
+│◦ ${prefix}lewdkemo
+│◦ ${prefix}woof
+│◦ ${prefix}gasm
+│◦ ${prefix}solo
+│◦ ${prefix}8ball
+│◦ ${prefix}goose
+│◦ ${prefix}avatar
+│◦ ${prefix}hololewd
+│◦ ${prefix}gecg
+│◦ ${prefix}holo
+│◦ ${prefix}fox_girl
+│◦ ${prefix}tits
+│◦ ${prefix}eroyuri
+│◦ ${prefix}holoyero
+│◦ ${prefix}lizard
+│◦ ${prefix}keta
+│◦ ${prefix}eron
+│◦ ${prefix}erok
+│◦ ${prefix}kemonomimi
+│◦ ${prefix}cum_jpg
+│◦ ${prefix}nsfw_avatar
+│◦ ${prefix}erofeet
+│◦ ${prefix}meow
+│◦ ${prefix}wallpaper
+│◦ ${prefix}waifu
+│◦ ${prefix}trap
+│◦ ${prefix}lewd
+│◦ ${prefix}pussy_jpg
+│◦ ${prefix}futanari
+│◦ ${prefix}lewdk
+│◦ ${prefix}solog
+│◦ ${prefix}smug
+│◦ ${prefix}cum
+│◦ ${prefix}slap
+│◦ ${prefix}les
+│◦ ${prefix}erokemo
+│◦ ${prefix}bj
+│◦ ${prefix}pwankg
+│◦ ${prefix}pat
+│◦ ${prefix}poke
+│◦ ${prefix}feed
+│◦ ${prefix}nsfw_neko_gif
+│◦ ${prefix}pussy
+│◦ ${prefix}feetg
+│◦ ${prefix}baka
+│◦ ${prefix}hug
+│◦ ${prefix}kiss
+│◦ ${prefix}tickle
+│◦ ${prefix}spank
+│◦ ${prefix}kuni
+│◦ ${prefix}classic
+│◦ ${prefix}boobs
+│◦ ${prefix}anal
+│◦ ${prefix}ngif
+│◦ ${prefix}cuddle
+│◦ ${prefix}zettai${petik}
+│
 ├❑ 「 *STC  MENU* 」
 │
 ${petik}│◦ ${prefix}awoawo
@@ -809,7 +891,7 @@ ${petik}│◦ ${prefix}rikagusriani
 │
 └─❑「 MENU BOT 」
 
-❏───「 *𝙰𝚔𝚎𝚖𝚒* 」───❏
+❏───「 *𝙰𝚔𝚎𝚖𝚒𝙱𝚘𝚝❤︎* 」───❏
 `
 }
 
@@ -929,7 +1011,7 @@ ${petik}├❒ ${prefix}harry_potter${petik} text
 ${petik}├❒ ${prefix}embossed${petik} text
 ${petik}├❒ ${prefix}broken${petik} text
 ${petik}├❒ ${prefix}papercut${petik} text
-${petik}├❒ ${prefix}gradient${petikemas} text
+${petik}├❒ ${prefix}gradient${petik} text
 ${petik}├❒ ${prefix}glossy${petik} text
 ${petik}├❒ ${prefix}watercolor${petik} text
 ${petik}├❒ ${prefix}multicolor${petik} text
@@ -1306,7 +1388,88 @@ ${petik}├❒ ${prefix}upswteks
 └❒ ${prefix}upswvideo${petik}
 `
 }
-
+const nsfw = (prefix) => {
+	return`┌❑  *NSFW & SFW* ❑
+│
+${petik}├❒ ${prefix}ahegao
+├❒ ${prefix}ass
+├❒ ${prefix}bdsm
+├❒ ${prefix}blowjob
+├❒ ${prefix}blowjob2
+├❒ ${prefix}cuckold
+├❒ ${prefix}cum
+├❒ ${prefix}ero
+├❒ ${prefix}femdom
+├❒ ${prefix}foot
+├❒ ${prefix}gangbang
+├❒ ${prefix}glasses
+├❒ ${prefix}jahy
+├❒ ${prefix}manga
+├❒ ${prefix}masturbation
+├❒ ${prefix}neko
+├❒ ${prefix}orgy
+├❒ ${prefix}panties
+├❒ ${prefix}pussy
+├❒ ${prefix}tentacles
+├❒ ${prefix}thighs
+├❒ ${prefix}yuri
+├❒ ${prefix}feet
+├❒ ${prefix}lewdkemo
+├❒ ${prefix}woof
+├❒ ${prefix}gasm
+├❒ ${prefix}solo
+├❒ ${prefix}8ball
+├❒ ${prefix}goose
+├❒ ${prefix}avatar
+├❒ ${prefix}hololewd
+├❒ ${prefix}gecg
+├❒ ${prefix}holo
+├❒ ${prefix}fox_girl
+├❒ ${prefix}tits
+├❒ ${prefix}eroyuri
+├❒ ${prefix}holoyero
+├❒ ${prefix}lizard
+├❒ ${prefix}keta
+├❒ ${prefix}eron
+├❒ ${prefix}erok
+├❒ ${prefix}kemonomimi
+├❒ ${prefix}cum_jpg
+├❒ ${prefix}nsfw_avatar
+├❒ ${prefix}erofeet
+├❒ ${prefix}meow
+├❒ ${prefix}wallpaper
+├❒ ${prefix}waifu
+├❒ ${prefix}trap
+├❒ ${prefix}lewd
+├❒ ${prefix}pussy_jpg
+├❒ ${prefix}futanari
+├❒ ${prefix}lewdk
+├❒ ${prefix}solog
+├❒ ${prefix}smug
+├❒ ${prefix}cum
+├❒ ${prefix}slap
+├❒ ${prefix}les
+├❒ ${prefix}erokemo
+├❒ ${prefix}bj
+├❒ ${prefix}pwankg
+├❒ ${prefix}pat
+├❒ ${prefix}poke
+├❒ ${prefix}feed
+├❒ ${prefix}nsfw_neko_gif
+├❒ ${prefix}pussy
+├❒ ${prefix}feetg
+├❒ ${prefix}baka
+├❒ ${prefix}hug
+├❒ ${prefix}kiss
+├❒ ${prefix}tickle
+├❒ ${prefix}spank
+├❒ ${prefix}kuni
+├❒ ${prefix}classic
+├❒ ${prefix}boobs
+├❒ ${prefix}anal
+├❒ ${prefix}ngif
+├❒ ${prefix}cuddle
+└❒ ${prefix}zettai${petik}
 `
 }
 const asupan = (prefix) => {
