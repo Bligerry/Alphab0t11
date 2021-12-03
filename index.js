@@ -4521,7 +4521,9 @@ if (!isGroup) return reply(lang.onlygc())
 			                break
 			case 'promoteall':
 			if (!isGroup && !isBotGroupAdmins) return reply(lang.botNotAdm())
-                members_id = []
+                if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
+					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+					if (mentioned.length > 1) {
 					for (let mem of groupMembers) {
 				   	members_id.push(mem.jid)
 				  	}
@@ -5760,6 +5762,24 @@ reply(lang.anjawaOff(command))
           ]);
         }
         break;
+case 'Nembak':
+ sendButMessage(from, `Elu suka ga sama gw`, `Pilih 1 aja ya :)`, [
+            {
+              buttonId: 'jsjsdfg',
+              buttonText: {
+                displayText: `Iya`,
+              },
+              type: 1,
+            },
+            {
+              buttonId: 'ushshajd',
+              buttonText: {
+                displayText: `Ga`,
+              },
+              type: 1,
+            },
+          ]);
+          break;
 case 'autovn':
 if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 if (args[0] === "on") {
@@ -6008,6 +6028,12 @@ alpha.sendMessage(from,  butptonMessagee, MessageType.buttonsMessage,{
 			quoted: fgclink,sendEphemeral: true 
 			})
 			break
+case 'jsjsdfg':
+ alpha.sendMessage(from, 'I love you 😘', text,{})
+ break
+case 'ushshajd':
+alpha.sendMessage(from, 'Ok', text,{})
+break
 case 'absensi':
                  if (!isGroup) return reply(lang.onlygc())
 absen.push(sender)
